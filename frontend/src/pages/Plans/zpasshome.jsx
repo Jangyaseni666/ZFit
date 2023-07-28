@@ -50,7 +50,7 @@ function ZPassHome() {
   const home3 = useDisclosure();
 
   return (
-    <Box bg="blackAlpha.900">
+    <Box bg="#0f1b2b">
       <Center py={10}>
         <Flex gap={3}>
           <Text color="white" fontSize="5xl" fontWeight="bold">
