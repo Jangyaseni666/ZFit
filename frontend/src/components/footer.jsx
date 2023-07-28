@@ -1,6 +1,5 @@
 import React from "react";
 import { Flex, Spacer, Box, Text, Image } from "@chakra-ui/react";
-import { useMediaQuery } from "@chakra-ui/react";
 import {
   FaYoutube,
   FaFacebook,
@@ -10,8 +9,6 @@ import {
 } from "react-icons/fa";
 
 function Footer() {
-  //   const [isGreaterThan768] = useMediaQuery("(min-width:769px)");
-  //   const direction = isGreaterThan768 ? "row" : "column";
   return (
     <Flex
       bg="black"
@@ -20,7 +17,12 @@ function Footer() {
       direction={["column", "column", "row"]}
     >
       <Box flex="4" align="left">
-        <Image src="/" alt="z.fit_logo" mb={"10%"} />
+        <Image
+          src="fit-removebg-preview.png"
+          alt="z.fit"
+          mb={"10%"}
+          maxH={100}
+        />
         <Text>
           At z.fit, we make group workouts fun, daily food healthy & tasty,
           mental fitness easy with yoga & meditation, Medical & lifestyle care
@@ -59,14 +61,12 @@ function Footer() {
       <Box flex="2" align="left">
         <Flex direction="column" justify="space-between">
           <Image
-            //   boxSize="200"
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_178,q_auto:eco,dpr_2,f_auto,fl_progressive//image/icons/cult/appstore.svg"
             alt="app_store"
             style={{ width: "250px", height: "auto" }}
             my={"5%"}
           />
           <Image
-            //   boxSize="200"
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_178,q_auto:eco,dpr_2,f_auto,fl_progressive//image/icons/cult/googleplay.svg"
             alt="play_store"
             style={{ width: "250px", height: "auto" }}
