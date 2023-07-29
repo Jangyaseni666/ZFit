@@ -1,11 +1,13 @@
 //import logo from './logo.svg';
-import './App.css';
-import {ChakraProvider} from '@chakra-ui/react';
+import "./App.css";
+import Layout from "./pages/layout";
+import AllRoutes from "./AllRoutes";
+import "./fonts/fonts.css"
 function App() {
   return (
-    <ChakraProvider>
-      {/* Your code */}
-    </ChakraProvider>
+      <Layout>
+        <AllRoutes />
+      </Layout>
   );
 }
 

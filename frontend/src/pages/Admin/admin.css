@@ -1,0 +1,93 @@
+body {
+  font-family: 'Inter';
+  /* overflow-y: hidden; */
+}
+
+.box-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabs{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: 100vh;
+}
+
+#tab-list {
+  color: white;
+  width: 20%;
+}
+  
+#tab-list button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+  
+#tab-list button:hover {
+  background-color: #4a5568;
+}
+  
+#tab-list button.active {
+  background-color: #1a202c;
+}
+  
+.tab-panels {
+  padding: 20px;
+  height: 400vh;
+}
+
+#carepanel{
+  height: 400vh;
+}
+
+#profile-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: '51245562.png';
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+#profile-panel>h2{
+  height: 100%;
+}
+#admin-img-bg{
+  display: flex;
+  width: 40%;
+  height: auto;
+}
+
+#profile-head{
+  margin-left: 45%;
+}
+
+#care-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: '51245562.png';
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#care-head{
+  margin-left: 45%;
+}
+
+#pass-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pass-head{
+  margin-left: 45%;
+}

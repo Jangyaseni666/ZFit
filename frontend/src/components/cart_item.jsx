@@ -12,7 +12,7 @@ import {
 import { DeleteIcon } from "@chakra-ui/icons";
 import { useToast } from "@chakra-ui/react";
 
-function Cart_item({ id,_id }) {
+function Cart_item({ id, _id }) {
   const [getItem, setGetItem] = useState([]);
   const toast = useToast();
 
@@ -38,15 +38,18 @@ function Cart_item({ id,_id }) {
   }, []);
 
   const delete_item = async () => {
-    console.log(_id);
+    const token = await localStorage.getItem("token");
     const response = await fetch(
-      `${process.env.REACT_APP_BASE_URL}history/delete${_id}`,
+      `${process.env.REACT_APP_BASE_URL}history/delete/${_id}`,
       {
         method: "DELETE",
+        headers: {
+          Authorization: JSON.parse(token),
+        },
       }
     );
+    console.log(response);
     if (response.ok) {
-      console.log(response.ok)
       toast({
         title: "Item deleted",
         description: "Item is deleted from cart",

@@ -1,0 +1,33 @@
+#card{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 2%;
+    background: rgb(255 255 255 / 5%);
+    border: 1px solid rgb(255 255 255 / 20%);
+    flex-basis: 30%;
+    z-index: 2;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    line-height: 12px;
+    transition: all 30ms ease;
+}
+
+#card #title{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+}
+
+#card #desc{
+    color: rgb(157, 157, 157);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#card:hover{
+    cursor: pointer;
+    background: rgb(255 255 255 / 10%);
+}

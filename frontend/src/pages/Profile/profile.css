@@ -1,0 +1,163 @@
+.profile4{
+    display:flex;
+    flex-direction: row;
+    /* border:2px solid green; */
+    justify-content: space-around;
+    margin:1% 10%;
+    background-image: url('https://wallpaperaccess.com/full/3492075.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity:0.8;
+    /* position: absolute; */
+    z-index:-1;
+    color:black;
+    border-radius: 15px;
+    
+ }
+.profileleft{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.profileleft button{
+    padding:5%;
+    margin:15% 2%;
+    border:1px solid rgb(106, 106, 170);
+    border-radius: 12px;
+    font-size: 18px;
+}
+.profileshow{
+    display:flex;
+    flex-direction: column;
+    padding:5%;
+    margin:1%;
+    border:1px solid rgb(106, 106, 170);
+    border-radius: 12px;
+    width:70%;
+    justify-content: space-around;
+    font-size: 12px;
+    
+}
+.rightpro{
+    display: flex;
+    justify-content: center;
+    
+}
+.rightpro1{
+    padding-top:2%;
+    font-weight:1000;
+}
+.rightpro2{
+    padding-top:2%;
+    font-weight: 1000;
+}
+.rightpro1 h1,.rightpro2 h1{
+    padding-top: 4%;
+}
+#userimage{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.modal{
+    background-color:rgb(152, 186, 227);
+    /* margin-left:30%;
+    margin-top: 5%; */
+    width:550px;
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+}
+.modal form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 70px;
+    /* justify-content: space-evenly; */
+    /* padding: 5%; */
+}
+.underline-input{
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;
+    /* margin-left: 100px; */
+}
+.form-label{
+    width: 100px;
+}
+#update{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 76px;
+    border:2px solid white;
+    width:200px;
+}
+.totalpro{
+    background-image: url("https://img.freepik.com/premium-photo/3d-rendering-black-dumbbells-floor-dark-concept-fitness-room-with-training-equipments-back_67155-14961.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid black;
+    
+    
+    /* border:1px solid green; */
+}
+@media (max-width:767px){
+    .profile4{
+        display:flex;
+        flex-direction: column-reverse;
+        /* border:2px solid green; */
+        /* justify-content: space-around; */
+        /* width:100%; */
+        /* margin-top:20px; */
+        /* margin-left:0px;
+        background-image: url('https://media.istockphoto.com/id/1219872152/vector/abstract-creative-background.jpg?s=612x612&w=0&k=20&c=hqNERUEmT9KgPCis9ZvaxemOSfFWR-oKPe3PA-nFjkY=');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity:0.8;
+        /* position: absolute; */
+        /* z-index:-1;
+        color:white; */ 
+     }
+     .rightpro{
+        display: flex;
+        flex-direction: column;
+        gap:2px;
+    }
+    .rightpro1{
+        padding-top:4%;
+        font-weight:700;
+    }
+    .rightpro2{
+        padding-top:4%;
+        font-weight: 700;
+    }
+    .profileshow{
+        display:flex;
+        flex-direction: column;
+        padding:4%;
+        margin:4%;
+        border:1px solid rgb(106, 106, 170);
+        border-radius: 12px;
+        width:80%;
+        justify-content: center;
+    }
+    .modal{
+        background-color:rgb(152, 186, 227);
+        margin:5%;
+        width:450px;
+        height:550px;
+        display: flex;
+        flex-direction: column;    
+        /* align-items: center; */
+    }
+    .totalpro{
+        width:100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+}

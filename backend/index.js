@@ -13,23 +13,29 @@
 
 // express
 
-// const {Auth}=require("./middlewares/middleware");
+const {Auth}=require("./middleware/middleware");
 const express =  require("express");
 const { careRoute } = require("./routes/careroute");
 const {faqRoute} =require("./routes/faqroute");
 const {historyRoute} =require("./routes/historyroute")
 const { connection } = require("./main");
+const {mindRoute} =require("./routes/mindRoute")
+const { userRoute } = require("./routes/userroute");
+const {profileroute}=require("./routes/profileroute")
 const cors = require("cors");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-// app.use(Auth);
-
+app.use("/users", userRoute);
+app.use("/mind",mindRoute);
 app.use("/care",careRoute);
 app.use("/faq",faqRoute);
+
+app.use(Auth);
+
 app.use("/history",historyRoute);
+// app.use("/profile",profileroute);
 
 app.get("/", (req,res) =>{
     res.send("Yippee Kayak Motherfuckers");

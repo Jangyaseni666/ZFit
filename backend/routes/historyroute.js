@@ -12,6 +12,16 @@ historyRoute.get("/cart:uid", async (req, res) => {
   }
 });
 
+historyRoute.get("/history:uid", async (req, res) => {
+  const Uid = req.params.uid;
+  try {
+    const findcart = await historyModel.find({ uid: Uid, in_cart: false });
+    res.send(findcart);
+  } catch (err) {
+    res.send({ msg: "eeerrreee" });
+  }
+});
+
 historyRoute.post("/", async (req, res) => {
   const { pid, uid, in_cart, cost } = req.body;
   try {
@@ -34,11 +44,13 @@ historyRoute.patch("/:id", async (req, res) => {
   }
 });
 
-historyRoute.delete("/delete:id", async (req, res) => {
+historyRoute.delete("/delete/:id", async (req, res) => {
   const Id = req.params.id;
+  console.log("id"+Id);
   try {
+    console.log(1);
     await historyModel.findByIdAndDelete(Id);
-    res.send({ msg: "deleted item" });
+    res.send({ok : true})
   } catch (err) {
     res.send({ msg: err });
   }

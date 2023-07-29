@@ -1,0 +1,20 @@
+.allorders{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    background-image: url("https://img.freepik.com/premium-photo/3d-rendering-black-dumbbells-floor-dark-concept-fitness-room-with-training-equipments-back_67155-14961.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.allorders div{
+    border:1px solid black;
+    background-image: url('https://wallpaperaccess.com/full/3492075.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding:2% 2%;
+}
+.allorders div h1{
+    font-size: 24px;
+}

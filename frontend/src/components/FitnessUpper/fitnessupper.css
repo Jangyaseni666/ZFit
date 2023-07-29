@@ -1,0 +1,51 @@
+body{
+    background-color: #070B11;
+}
+
+.containerr{
+    overflow: hidden;
+    position: relative;
+}
+
+.containerr #explore{
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0B4C6F;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#explore:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.grad{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to top, rgb(7, 11, 17), transparent);
+    height: 240px;
+    bottom: 0px;
+}
+
+.containerr .cards{
+    position: absolute;
+}
+
+.containerr .gridcards{
+    position: absolute;
+    top: 63%;
+    left: 13%;
+}
+
+.carousell{
+    margin-top: 0;
+}

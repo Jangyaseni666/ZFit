@@ -1,0 +1,945 @@
+*{
+    font-family: 'BrandonTextWeb-Regular';
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+/* Zoom Video Div CSS */
+.zoom-video-div{
+    height: 100vh;
+    position: relative;
+    font-family: 'BrandonTextWeb-Regular';
+}
+
+.zoom-video-div>video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    display: block;
+    transition: opacity 600ms ease 0s;
+    will-change: transform;
+    opacity: 1;
+}
+
+.main-text-block{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 90px;
+    margin: auto;
+    transition: all 2s ease 0s;
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+}
+
+#main-text{
+    text-align: center;
+    cursor: default;
+    color: white;
+    font-size: 30px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+    margin-bottom: 25px;
+}
+
+#main-button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#main-button-box>button{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    color: #F06055;
+}
+
+#main-button-box>button:hover{
+    color: black;
+}
+
+.main-design{
+    margin: auto auto 275px;
+    margin-top: 210px;
+    z-index: 5;
+    transition: all 1s ease 0s;
+    width: 500px;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.main-design-inner{
+    width: 100%;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+#main-design-image{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#scroll-down{
+    width: 22px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 48.5%;
+    cursor: pointer;
+}
+
+.main-gradient{
+    width: 100%;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+#main-gradient-img{
+    position: absolute;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+/* -------------------- */
+
+
+
+
+/* -----Membership Card Div----- */
+.membership-card-div{
+    padding: 0 0 0 0;
+    height: 45vh;
+    background-color: #181a27;
+}
+
+.membership-cards{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    justify-content: center;
+    opacity: 1;
+}
+
+#member-card{
+    background: rgb(255 255 255 / 5%);
+    border: 1px solid rgb(255 255 255 / 20%);
+    flex-basis: 30%;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 20px 0px 20px;
+    transition: all 300ms ease;
+    cursor: pointer;
+    backdrop-filter: blur(50px);
+    z-index: 1;
+}
+
+#zpass{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'BrandonText';
+}
+
+#passtype{
+    height: auto;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#passtext{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255 255 255 / 60%);
+    font-size: 18px;
+    font-family:'BrandonText';
+    font-weight: 700;
+    line-height: 22px;
+    padding: 0 60px;
+}
+
+#member-card:hover{
+    cursor: pointer;
+    background: rgb(255 255 255 / 10%);
+}
+/* ----------------- */
+
+
+
+
+/* -----Cult Pass Intro Div----- */
+.cult-intro-div{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    background: #181a27;
+}
+
+.cult-intro-div-inner{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1199.1666666666667px; */
+}
+
+.cult-intro-head{
+    width: 259px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+#cult-intro-image{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#cult-intro-head2{
+    text-align: center;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.cult-intro-cards-div{
+    display: flex;
+    margin-top: 37px;
+}
+
+#cult-intro-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+    width: 33%;
+    z-index: 1;
+    margin: 2%;
+    background: transparent;
+}
+
+.intro-card-image-text{
+    position: absolute;
+    left: 10%;
+    bottom: 40px;
+    z-index: 1;
+}
+
+#image-text-inner1{
+    width: 88px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+
+#image-text1{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    bottom: 0px;
+    left: 0px;
+    width: 70%;
+    color: #aaabaf;
+}
+
+#image-text-inner2{
+    width: 106px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin-top: 6px;
+}
+
+#image-text2{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+}
+
+.intro-card-image-div{
+    width: 100%;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 15px
+}
+.intro-card-image-div:hover{
+    box-shadow: 0px 15px 26px rgba(255, 255, 255, 0.30);
+}
+.intro-card-image-div:hover #image-text2{
+    transform: translateX(30%) ;
+    transition: 700ms ease 0s;
+}
+
+#intro-card-image{
+    position: relative;
+    opacity: 1;
+    transition: all 500ms ease 10ms;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+#intro-card-image:hover{
+    transform: scale(1.2);
+}
+
+.intro-card-text-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 175px;
+}
+
+#intro-div-text1{
+    text-align: left;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -0.3px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+#intro-div-text2{
+    text-align: left;
+    cursor: default;
+    margin: 0;
+    color: rgb(255 255 255 / 70%);
+    font-size: 18px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.intro-card-btn-div{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.intro-card-btn-div-inner{
+    margin: 40px 0 30px;
+    width: 330px;
+}
+
+.intro-card-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#btn-1{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2f313c;
+    backdrop-filter: blur(50px);
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
+}
+
+#btn1-text{
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#btn-2{
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 250ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
+    width: 58%;
+}
+
+#btn2-text{
+    color: #F06055;
+    background: linear-gradient(134.58deg, #FFDB17 -79.01%, #FF3278 103.85%);
+    background-clip: text;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+/* --------------------- */
+
+
+
+
+/* -----Info Card Div----- */
+.info-card-div{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: clip;
+    background-color: #181a27;
+}
+
+.info-card-div-inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    position: relative;
+}
+
+.info-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+#info-card1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/cult-transform-glass-green.png);
+    background-color: rgba(24, 26, 39,0.01);
+    background-position: 40%;
+    padding-bottom: 77.5%;
+    height: 0px;
+    margin: 5%;
+}
+
+#info-card2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/glass-blog-multi-color.png);
+    background-color: rgba(24, 26, 39,0.1);
+    background-position: 40%;
+    padding-bottom: 77.5%;
+    height: 0px;
+    margin: 5%;
+}
+
+#info-card3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/glass-workout-gear.png);
+    background-color: rgba(24, 26, 39,0.1);
+    background-position: 40%;
+    padding-bottom: 77.5%;
+    height: 0px;
+    margin: 5%;
+}
+
+#info-card4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/sugar-fit-glass-purple.png);
+    background-color: rgba(24, 26, 39,0.1);
+    background-position: 40%;
+    padding-bottom: 77.5%;
+    height: 0px;
+    margin: 5%;
+}
+
+.info-card-text-div{
+    padding: 5px 30px 20px 35px;
+    display: block;
+    margin-top: 4%;
+}
+
+.info-text-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+#info-text1{
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+    font-weight: 700;
+}
+
+#info-text2{
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    color: #cacaca;
+    font-size: 19px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    max-width: 85%;
+    margin-bottom: 3%;
+    margin-left: 1.5%;
+}
+
+#arrow-image-div{
+    width: 40px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin: auto 0;
+}
+
+#arrow-know-more{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.info-bg-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.info-bg-div1{
+    width: 60vh;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    height: 60vh;
+    top: -10%;
+    left: -12%
+}
+
+.info-bg-div2{
+    width: 50vh;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    opacity: 60%;
+    height: 50vh;
+    right: -15%;
+    top: -7%;
+}
+
+.info-bg-div3{
+    width: 70vh;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    opacity: 70%;
+    height: 70vh;
+    top: 35%;
+    left: -10%;
+}
+
+.info-bg-div4{
+    width: 50%;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    opacity: 40%;
+    height: 50%;
+    left: 5%;
+    top: 45%;
+}
+
+.info-bg-div5{
+    width: 50%;
+    min-height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    height: 50%;
+    right: -10%;
+    bottom: 10%
+}
+
+#info-bg-img{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+/* ----------------------- */
+
+
+
+
+/* -----Download Div----- */
+.download-app-div{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #181a27;
+}
+
+.download-app-div-inner{
+    margin: 2%;
+}
+
+#download-card{
+    background-size: 102%;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    background-position: -5px 0px;
+    width: 100%;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/download-app/download-app-variant-2.png);
+    filter: brightness(90%);
+}
+
+#download-card-inner{
+    padding: 40px;
+}
+
+#download-text1{
+    text-align: start;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-weight: 725;
+    font-size: 30px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+    margin-bottom: 4%;
+    max-width: 450px;
+}
+
+#download-text2{
+    text-align: start;
+    cursor: default;
+    margin: 0;
+    color: rgb(255 255 255 / 80%);
+    font-size: 18px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    max-width: 475px;
+    margin-bottom: 8.5%;
+}
+
+#download-btn1{
+    width: 159px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    padding-right: 2%;
+}
+#download-btn1:hover{
+    transition: all 650ms ease 50ms;
+    transform: scale(1.1);
+}
+
+#download-btn2{
+    width: 175.5px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+#download-btn2:hover{
+    transition: all 650ms ease 50ms;
+    transform: scale(1.1);
+}
+
+#download-image1{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%
+}
+
+#download-image2{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+/* ------------- */
+
+
+
+
+/* -----Join Cult Div----- */
+.join-cult-div{
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #181a27;
+}
+
+.join-cult-inner{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1079.25px; */
+}
+
+.join-card-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#join-cult-heading{
+    text-align: center;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-size: 70px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -1px;
+    line-height: 84px;
+    margin-bottom: 6%;
+}
+
+.join-cards{
+    flex-basis: 49%;
+    cursor: pointer;
+}
+.join-card:hover{
+    transition: all 500ms ease 50ms;
+    transform: scale(1.02);
+    z-index: 2;
+    filter: brightness(125%);
+}
+.join-card:not(:hover) {
+    transition: all 300ms ease 50ms;
+    filter: brightness(90%);
+}
+
+#join-card1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: none;
+    height: 100%;
+    background-position: center center;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
+}
+
+#join-card2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: none;
+    height: 100%;
+    background-position: center center;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/cult-for-business.png);
+}
+
+#join-card-inner{
+    padding: 20px 40px 25px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#join-card1-text{
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 60px;
+    margin-bottom: 6%;
+}
+
+#join-card1-image-div{
+    width: 100%;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+
+#join-card1-image{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#join-card2-text1{
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 60px;
+    background-clip: text;
+    background-color: linear-gradient(115deg, #f8ba00 12%, #ef5fa7 80%);
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+#join-card2-text2{
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -0.3px;
+    line-height: 35px;
+    margin-top: 10%;
+}
+
+#join-card-btn{
+    cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3888FF;
+    background: transparent;
+    font-size: 14px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 3px 15px 2px 15px;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 0;
+}
+#join-card-btn:hover{
+    background: #292b33;
+}
+/* ----------------- */
+
+
+
+
+/* -----We Are Cult Div----- */
+.cult-div{
+    height: 45vw;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-color: #181a27;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/we_are_cult_new.svg);
+}
+
+#cult-text-div{
+    width: 33%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 7vw;
+}
+
+#cult-text{
+    text-align: left;
+    cursor: default;
+    margin: 0;
+    color: rgb(255 255 255 / 70%);
+    font-size: 22px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -0.3px;
+    line-height: 35px;
+}
+/* ---------------- */

@@ -1,0 +1,19 @@
+.card>.img{
+    max-width: 200px;
+    min-width: 200px;
+    height: 198px;
+    padding: 15px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card{
+    transition: box-shadow 300ms ease-in, transform 300ms ease-out;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(.97);
+}

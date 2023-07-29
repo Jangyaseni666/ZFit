@@ -1,0 +1,7 @@
+.ccard {
+  transition: ease-in-out 150ms;
+}
+.ccard:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}

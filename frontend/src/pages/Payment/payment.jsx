@@ -23,18 +23,22 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "@chakra-ui/react";
 
 function Payment() {
-  localStorage.setItem("user_id", 1); //delete uid finally
-  const uid = localStorage.getItem("user_id");
+  // localStorage.setItem("user_id", 1);
+  const uid = localStorage.getItem("userid");
   const [cartItem, setCartItem] = useState([]);
   const [tot_sum, setTot_sum] = useState(0);
   const navigate = useNavigate();
   const toast = useToast();
 
   const get_cart = async () => {
+    const token=await localStorage.getItem("token");
     const response = await fetch(
       `${process.env.REACT_APP_BASE_URL}history/cart${uid}`,
       {
         method: "GET",
+        headers: {
+          Authorization: JSON.parse(token),
+        },
       }
     );
     if (response.ok) {
@@ -52,8 +56,9 @@ function Payment() {
     setTot_sum(localStorage.getItem("tot_sum"));
   }, []);
 
-  const pay_verify = () => {
-    cartItem.map(async (el) => {
+  const pay_verify = async() => {
+    const token= await localStorage.getItem("token");
+    await cartItem.map(async(el) => {
       const dataobj = {
         in_cart: false,
       };
@@ -63,6 +68,7 @@ function Payment() {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
+            Authorization: JSON.parse(token),
           },
           body: JSON.stringify(dataobj),
         }
@@ -76,7 +82,6 @@ function Payment() {
           isClosable: true,
           variant: "top-accent",
         });
-        localStorage.clear();
         navigate("/");
       }
     });

@@ -35,8 +35,8 @@ import {
 
 function Product() {
   const id = localStorage.getItem("care_id");
-  localStorage.setItem("user_id", 1);
-  const uid = localStorage.getItem("user_id");
+  // localStorage.setItem("user_id", 1);
+  const uid = localStorage.getItem("userid");
   const [getdesc, setGetdesc] = useState([]);
 
   const get_desc = async () => {
@@ -65,20 +65,23 @@ function Product() {
   const modal2 = useDisclosure();
   const toast = useToast();
 
-  const add_cart = () => {
-    const dataobj = {
+  const add_cart = async() => {
+    const token = await localStorage.getItem("token");
+    const dataobj = await {
       pid: id,
       uid: uid,
       in_cart: true,
       cost: getdesc.offer_price,
     };
-    fetch(`${process.env.REACT_APP_BASE_URL}history`, {
+    await fetch(`${process.env.REACT_APP_BASE_URL}history`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        Authorization: JSON.parse(token),
       },
       body: JSON.stringify(dataobj),
     }).then((res) => {
+      console.log(res);
       toast({
         title: "Test added",
         description: "Your test is added to Cart",
@@ -132,7 +135,7 @@ function Product() {
               </BreadcrumbItem>
 
               <BreadcrumbItem color={"gray.300"}>
-                <BreadcrumbLink href="/">Care</BreadcrumbLink>
+                <BreadcrumbLink href="/care">Care</BreadcrumbLink>
               </BreadcrumbItem>
 
               <BreadcrumbItem isCurrentPage color={"white"}>

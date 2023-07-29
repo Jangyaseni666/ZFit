@@ -1,0 +1,13 @@
+.fit_card{
+    width: 80%;
+}
+
+.card_car{
+    padding-left: 5%;
+}
+
+@media screen and (max-width:1024px) {
+    .card_car{
+        padding-left: 10%;
+    }
+}

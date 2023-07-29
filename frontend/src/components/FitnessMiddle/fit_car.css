@@ -1,0 +1,13 @@
+.fit_card_mid{
+    width: 85%;
+    margin: 10%;
+    transition: ease-in-out 300ms;
+}
+.fit_card_mid:hover{
+    scale: 1.1;
+}
+
+.card_car_mid{
+    width: 80%;
+    margin-left: 10%;
+}

@@ -1,0 +1,11 @@
+
+.ccard {
+  transition: ease-in-out 150ms;
+}
+
+  /* #btns{
+    display: flex;
+    justify-content:space-between;
+    padding: 2%;
+    gap: 5%;
+  } */
