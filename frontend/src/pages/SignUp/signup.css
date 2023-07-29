@@ -1,0 +1,13 @@
+body{
+    background: #181a27;
+}
+
+#calender[type="date"]::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+    filter: invert(1);
+}
+
+#signup{
+    display: flex;
+    flex-direction: column;
+}
