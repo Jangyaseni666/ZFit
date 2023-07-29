@@ -42,33 +42,36 @@ _[Medibles](https://github.com/Jangyaseni666/Medibles)_
 
 ![](https://github.com/Jangyaseni666/ZFit/assets/103834482/07db5082-c7ab-4c39-9eb9-21e26e7cb8a4)
 
-</div>
 
-### Homepage
+
+## Homepage
+
+&nbsp;
+
 ![home-1](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/181eb358-ac85-4a9a-ab1e-61713bd56fa3)
 ![home-2](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/76a80919-c480-4551-9805-b950d5f4a2c6)
 
-### Fitness
+## Fitness
 ![fitness-1](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/77318d4b-4806-4da3-a17c-1293fa6b7f77)
 
 
-### Plans
+## Plans
 ![z-pass-elite](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/5e7e98f2-b846-4934-ae24-2d9e40215e36)
 
 
-### Care
+## Care
 ![cared](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/44eba7d3-fce0-499c-9505-54c5826963e9)
 ![cart](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/9da69651-5322-488b-b2d4-241c719ded9e)
 ![payment](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/28a3c5f0-61ea-4691-ad32-c45e75c1985d)
 
-### Mind
+## Mind
 ![mind-1](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/d635e0e9-87ee-4498-9b30-180d93e358f3)
 
-### Profile
+## Profile
 ![profile](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/4fb690ff-58ef-47ff-8a0c-972c0ef2df06)
 ![order](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/c540fc0a-375a-4e3f-ba61-24efaf8c03e9)
 
-
+</div>
 
 &nbsp;
 
