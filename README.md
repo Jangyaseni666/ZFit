@@ -108,11 +108,13 @@ _[Medibles](https://github.com/Jangyaseni666/Medibles)_
 
 <p>
   - To download the project. Git clone the project in your desktop.
+  
   - Open any folder and type "cmd" in the address bar to open terminal. In the terminal enter
 </p>
 
-npm
+ ```npm
 git clone https://github.com/Jangyaseni666/ZFit.git
+```
 
 
 <p>
