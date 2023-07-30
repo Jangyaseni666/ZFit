@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/Shreyas-Swain-10/SIRepo/blob/master/fit-removebg-preview.png" height="250px" width="auto">
+<img src="https://github.com/Jangyaseni666/ZFit/assets/96827920/b5c859a9-cfb9-4f71-a931-12ada095c7aa" height="250px" width="auto">
 
 ---
   
@@ -48,28 +48,42 @@ _[Medibles](https://github.com/Jangyaseni666/Medibles)_
 
 &nbsp;
 
-![home-1](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/181eb358-ac85-4a9a-ab1e-61713bd56fa3)
-![home-2](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/76a80919-c480-4551-9805-b950d5f4a2c6)
+![home-1](https://github.com/Jangyaseni666/ZFit/assets/96827920/c008f31f-bddf-4a9b-a39a-c9ee80127024)
+![home-2](https://github.com/Jangyaseni666/ZFit/assets/96827920/1cd8590d-456e-405c-9dec-5f0ebb61d084)
+
+
 
 ## Fitness
-![fitness-1](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/77318d4b-4806-4da3-a17c-1293fa6b7f77)
+
+![fitness-1](https://github.com/Jangyaseni666/ZFit/assets/96827920/d3d959aa-6bd8-43b7-9282-74689f085e91)
+
 
 
 ## Plans
-![z-pass-elite](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/5e7e98f2-b846-4934-ae24-2d9e40215e36)
+
+![z-pass-elite](https://github.com/Jangyaseni666/ZFit/assets/96827920/d4f70bd2-1b36-42e9-b50b-4d489b81fef0)
+
 
 
 ## Care
-![cared](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/44eba7d3-fce0-499c-9505-54c5826963e9)
-![cart](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/9da69651-5322-488b-b2d4-241c719ded9e)
-![payment](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/28a3c5f0-61ea-4691-ad32-c45e75c1985d)
+
+![Care](https://github.com/Jangyaseni666/ZFit/assets/96827920/4ece761a-35f0-4f2a-bdb9-ef0f2a4ea200)
+
+![cart](https://github.com/Jangyaseni666/ZFit/assets/96827920/fcecab8c-5d12-4ccd-bd90-76b2b863aafb)
+![payment](https://github.com/Jangyaseni666/ZFit/assets/96827920/e6e4295b-fb88-4d23-9196-bf045faea719)
+
+
 
 ## Mind
-![mind-1](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/d635e0e9-87ee-4498-9b30-180d93e358f3)
+
+![mind-1](https://github.com/Jangyaseni666/ZFit/assets/96827920/d7816665-4cdd-4b84-bec2-cd15a727efc5)
+
 
 ## Profile
-![profile](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/4fb690ff-58ef-47ff-8a0c-972c0ef2df06)
-![order](https://github.com/Shreyas-Swain-10/SIRepo/assets/103834482/c540fc0a-375a-4e3f-ba61-24efaf8c03e9)
+
+![profile](https://github.com/Jangyaseni666/ZFit/assets/96827920/2ac8da7a-ee1c-4ec1-9dfe-bc8af95d468e)
+![order](https://github.com/Jangyaseni666/ZFit/assets/96827920/7c88c507-5188-4649-a152-60f54a8d7ccb)
+
 
 </div>
 
