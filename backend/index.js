@@ -25,7 +25,10 @@ const {profileroute}=require("./routes/profileroute")
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+const corsOption = {
+    origin: "https://zfit-front.onrender.com",
+}
+app.use(cors(corsOption));
 app.use(express.json());
 app.use("/users", userRoute);
 app.use("/mind",mindRoute);
