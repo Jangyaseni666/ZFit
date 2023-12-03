@@ -26,7 +26,7 @@ const cors = require("cors");
 
 const app = express();
 const corsOption = {
-    origin: "https://zfit-front.onrender.com",
+    origin: "https://zfit-front.onrender.com/",
 }
 app.use(cors(corsOption));
 app.use(express.json());
